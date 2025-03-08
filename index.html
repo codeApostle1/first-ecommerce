@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Shoe Store</title>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Jera <span class="s-logo">Shoes</span></div>
+
+            <div class="input-field">
+                <label for="search">
+                   
+                </label>
+                <input type="text" id="search" placeholder="Search Item">
+                <i class="fas fa-search"></i>
+                
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Men's</a></li>
+                <li><a href="#products">Women's</a></li>
+                <li><a href="#about">New Arrivals</a></li>
+                <li><a href="#contact">Best Seller</a></li>
+                <li><a href="#contact">Sign in</a></li>
+            </ul>
+
+
+            <div class="cart">
+                <div class="order-pop"><span id="orderNumber">0</span></div>
+                🛒 
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="banner">
+
+        <div class="banner-info">
+        <h1>Find Your Perfect Shoes</h1>
+        <p>Shop the latest trends at the best prices</p>
+        <a href="#products" class="btn">Shop Now</a>
+
+    </div>
+    </section>
+    
+    <section id="products" class="products">
+        <h2>Our Collection</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="shoes/IMG-20250304-WA0020.jpg" alt="Shoe 1">
+                <h3>Running Shoes</h3>
+                <p>$50</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="shoes/IMG-20250304-WA0026.jpg" alt="Shoe 2">
+                <h3>Casual Sneakers</h3>
+                <p>$40</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="shoes/IMG-20250304-WA0024.jpg" alt="Shoe 3">
+                <h3>Formal Shoes</h3>
+                <p>$60</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 ShoeHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
