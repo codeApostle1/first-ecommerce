@@ -1,18 +1,24 @@
+// const cartNumber = document.getElementById('orderNumber')
+
 document.addEventListener("DOMContentLoaded", function () {
-    let cartCount = 0;
-    const cartCountElement = document.createElement("span");
-    cartCountElement.classList.add("cart-count");
-    document.querySelector(".cart").appendChild(cartCountElement);
+    // let cartCount = 0;
+    // const cartCountElement = document.createElement("span");
+    const cartNumber = document.getElementById('orderNumber')
+    // cartCountElement.classList.add("cart-count");
+    // document.querySelector(".cart").appendChild(cartCountElement);
     
     const buttons = document.querySelectorAll(".add-to-cart");
     buttons.forEach(button => {
         button.addEventListener("click", function () {
-            cartCount++;
-            cartCountElement.textContent = cartCount;
-            alert("Item added to cart!");
+            // cartCount++;
+            cartNumber.innerText ++
+            // cartCountElement.textContent = cartCount;
+           
         });
     });
 });
+
+
 
 const images = [
     'shoes/IMG-20250304-WA0022.jpg',
