@@ -1,0 +1,52 @@
+.container {
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-colors {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hex-colors h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate; 
+}
+
+.hex-colors h2 {
+    font-size: 2rem;
+    border: 1px solid black;
+    margin-top:15% ;
+}
+
+@keyframes changecolor {
+    0% {
+        color: indigo;
+    }
+    20% {
+        color: violet;
+    }
+    40% {
+        color: purple;
+    }
+    60% {
+        color: blue;
+    }
+    80% {
+        color: green;
+    }
+    100% {
+        color: yellow;
+    }
+}
+
+@media (max-width:480px) {
+    .hex-colors {
+        font-size: 1.5rem;
+    }
+}
