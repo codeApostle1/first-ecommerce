@@ -25,6 +25,16 @@ header {
     position: fixed;
     width: 100%;
     z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .fa-search {
@@ -61,6 +71,7 @@ input {
     font-weight: bold;
     color: white;
     cursor: pointer;
+    justify-self: flex-start;
 }
 
 .nav-links {
@@ -83,6 +94,21 @@ input {
     color: white;
     cursor: pointer;
     position: relative;
+}
+
+.toggle-bar {
+    width: 20px;
+    height: 3px;
+   cursor: pointer;
+   border: none;
+   background-color: none;
+   outline: none;
+
+}
+
+.toggle-bar svg {
+   background-color: none;
+    fill: var(--orange);
 }
 
 .order-pop {
